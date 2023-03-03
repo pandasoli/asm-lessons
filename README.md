@@ -18,32 +18,33 @@
 - what is the text section used for than just for `global _start`
 - will the variables we create in `.data` and `.bss` really be in these sections in the memory
 
-- lession 1
+- lesson 1
   - what is "the library"?
   - why `0Ah` have a "h" character? is it hexadecimal?
     if yes: why don't we use `0x` instead?
-- lession 5
+
+- lesson 5
   - why do we have to use `ret` in the end of the `quit` function?
 
-- lession 7
+- lesson 7
   - **what exactly are linefeeds?**: new line characters - `'\n'`
 
-- lession 9
+- lesson 9
   - what is the difference between reserved in unreserved spaces in the memory?  
   I mean how my program knows that space is reserved?
 
-- lession 22
+- lesson 22
   - what is that `o` in `0777o`?
 
-- lession 23
+- lesson 23
   - why do I need root permission to read the created file?
 
-- lession 29
+- lesson 29
   - what does `xor` means?
   - why `xor eax, eax` sets the `eax`'s value 0?
   - what is a socket?
 
-- lession 36
+- lesson 36
   - if everything in Linux is a file, it means web sockets too... How would I handle web sockets in Windows if Windows doesn't deal with connections as they were files?
   - why we used in this class `0Dh, 0Ah` to create a new line instead of just `0Ah` (linefeed character)?
 
