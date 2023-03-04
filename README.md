@@ -25,7 +25,14 @@
   Yes, they will be. Assemblers don't really much with your code like a C compiler would.
 
 - lesson 1
-  - **What is "the library"?**
+  - **What is "the library"?**:  
+    As said:
+    > These system calls are a library built into the operating system to provide functions such as reading input from a keyboard and writing output to the screen.
+
+    So yeah that makes sense. calling it a library is kinda confusing because system calls are not the same as userspace functions that you can write and then bundle into a library.  
+
+    Theres no libsyscalls.a or libsyscalls.so library file with all the syscalls, but there is a libc.so with all the **C** standard functions.
+
   - **Why `0Ah` have a "h" character? is it hexadecimal?**:  
     Yes. They use "h" as a style choice. It is also valid to use 0x as a prefix.
 
